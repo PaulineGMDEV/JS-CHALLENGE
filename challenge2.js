@@ -11,5 +11,10 @@ while (total < goal) {
     line += "Big month!";
 }
 console.log(line);
-month++
+month++;
+saving +=50;
+if (month >24) {
+    break;
 }
+}
+console.log('Goal reached in month ${month-1} with KES &{total}!')
